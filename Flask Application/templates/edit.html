@@ -1,0 +1,15 @@
+{% extends "layout3.html" %}
+
+{% block title %}
+    Task | {{title}}
+{% endblock %}
+
+{% block main %}
+    <div class="head6">
+        {{title}}
+    </div>
+    <div class="head2">{{description}}</div>
+    <form action="/edit/{{id2}}/" method="POST">
+        <input class="loginbtn" type="submit" value="Complete / Delete">
+    </form>
+{% endblock %}

@@ -1,0 +1,169 @@
+.logininput {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: black;
+  outline: none;
+  color: black;
+  width: 280px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+html {
+    overflow: auto;
+}
+
+
+.logininput2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  border-color: black;
+  outline: none;
+  color: black;
+  width: 500px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+body, html {
+  height: 100%;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.loginbtn {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: transparent;
+  border-color: black;
+}
+
+.head1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 210px;
+}
+
+.head6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+.head2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.head4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.head3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.button1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.table-row{
+cursor:pointer;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.table1 {
+  left: 2%;
+  position: absolute;
+  width: 96%;
+  border: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.table1 th {
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  width: 24%;
+}
+.table1 td {
+  border: 1px solid black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.head5 {
+  top: 40%;
+  left: 25%;
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80px;
+}
+
+.sub {
+  top: 60%;
+  left: 40%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+.sub2 {
+  top: 60%;
+  left: 40%;
+  position: absolute;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+.tabled {
+  text-align: justify;
+  padding: 8px 8px 8px 8px;
+}
+.tablee {
+  width: 24%;
+  text-align: center;
+}

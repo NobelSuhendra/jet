@@ -1,0 +1,26 @@
+{% extends "layout2.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <div class="head1">
+        Login
+    </div>
+    <div class="head2">
+        <span>Don't have an account yet? </span>
+        <a href="https://ide-aa6ba8612eec4f25b73decdc6efd18ba-8080.cs50.ws/register">Register now!</a>
+    </div>
+    <form action="/login" method="POST">
+        <div>
+            <input class="logininput" type="text" name="username" placeholder="Username" autocomplete="off">
+        </div>
+        <div>
+            <input class="logininput" type="password" name="password" placeholder="Password" autocomplete="off">
+        </div>
+        <div>
+            <input class="loginbtn" type="submit" value="Login">
+        </div>
+    </form>
+{% endblock %}

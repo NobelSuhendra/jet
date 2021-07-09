@@ -1,0 +1,29 @@
+{% extends "layout3.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div class="head3">Tasks</div>
+    <table class="table1">
+        <thead>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Due Date</th>
+            <th>Remove</th>
+        </thead>
+        <tbody>
+            {% for task in tasks %}
+                <tr class="table-row">
+                    <td class="tablee">{{task.task}}</td>
+                    <td class="tabled">{{task.description}}</td>
+                    <td class="tablee"><p>{{task.date}}</p></td>
+                    <td class="tablee">
+                        <a href="https://ide-aa6ba8612eec4f25b73decdc6efd18ba-8080.cs50.ws/edit/{{task.id2}}">Complete/Delete</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

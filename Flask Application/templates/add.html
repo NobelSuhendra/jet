@@ -1,0 +1,25 @@
+{% extends "layout3.html" %}
+
+{% block title %}
+    Add Tasks
+{% endblock %}
+
+{% block main %}
+    <div class="head4">
+        Add Task
+    </div>
+    <form action="/add" method="POST">
+        <div>
+            <input class="logininput" type="text" name="title" placeholder="Title" autocomplete="off">
+        </div>
+        <div>
+            <input class="logininput" type="date" name="date" placeholder="Due Date"  autocomplete="off">
+        </div>
+        <div>
+            <textarea class="logininput2" type="text" name="description" placeholder="Description" autocomplete="off"></textarea>
+        </div>
+        <div>
+            <input class="loginbtn" type="submit" value="Add Task">
+        </div>
+    </form>
+{% endblock %}
